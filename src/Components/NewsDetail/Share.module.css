@@ -1,0 +1,24 @@
+/***************************************
+ *	공유버튼
+ */
+.shareBtns {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.shareBtns button {
+  display: block;
+  margin: 0 2%;
+  cursor: pointer;
+}
+
+.shareFacebook:hover svg {
+  fill: #4464a3;
+}
+.shareX:hover svg {
+  fill: #55acee;
+}
+.shareLinkedin:hover svg {
+  fill: #0077b5;
+}

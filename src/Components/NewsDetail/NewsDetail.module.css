@@ -1,0 +1,61 @@
+/***************************************
+ *	임시
+ */
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/***************************************
+ *	img 태그
+ */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/***************************************
+ *	button 태그 초기화
+ */
+button {
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+/***************************************
+ *	상세페이지 전체
+ */
+.newsDetailWrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 3% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  font-family: "Nanum Gothic";
+}
+
+.newsDetail {
+  width: 65%;
+}
+
+.newsDetailAside {
+  width: 250px;
+  padding-right: 3%;
+}
+
+@media screen and (max-width: 1300px) {
+  .newsDetailWrapper {
+    width: 100%;
+  }
+
+  .newsDetail {
+    width: 70%;
+  }
+
+  .newsDetailAside {
+    width: 30%;
+    padding-right: 10%;
+  }
+}

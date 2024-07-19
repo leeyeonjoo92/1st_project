@@ -1,0 +1,60 @@
+/***************************************
+ *	뉴스영역 전체
+ */
+.newsInfoWrapper {
+  padding: 0 5%;
+}
+
+@media screen and (max-width: 1300px) {
+  .newsInfoWrapper {
+    padding: 0 13%;
+  }
+}
+
+/***************************************
+ *	날짜
+ */
+.newsInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+/***************************************
+ *	공유 버튼
+ */
+.shareBtnWrapper {
+  position: relative;
+}
+
+/* ... 메뉴 */
+.shareMore {
+  width: 19px;
+  height: 19px;
+  /* padding으로 주면 이미지가 너무 작아짐 */
+  border: 5px solid transparent;
+  /* border를 width, height에 포함 안함 */
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+/***************************************
+ *	제목
+ */
+.newsTitle {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 13%;
+  line-height: 1.2;
+}
+
+/***************************************
+ *	내용
+ */
+.newsCon {
+  font-size: 23px;
+  line-height: 1.7;
+  margin: 8% 0;
+}

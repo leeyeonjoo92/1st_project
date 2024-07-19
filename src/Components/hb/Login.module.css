@@ -1,0 +1,216 @@
+/* Header */
+.main img {
+    width: 68px;
+    left: 0%;
+    top: 0%;
+    cursor: pointer;
+  }
+  
+  .main {
+    margin-top: 18px;
+    margin-left: 30px;
+    height: 100vh;
+  }
+  
+  .header {
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-right: 1rem;
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+  }
+  
+  .message {
+    font-size: 1.1rem;
+    letter-spacing: 0.07rem;
+    text-align: center;
+    padding-bottom: 1.7rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .signupForm {
+    font-size: 0.99rem;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .email::-webkit-input-placeholder {
+    font-size: 16px;
+    letter-spacing: 0.05rem;
+  }
+  
+  .email::-moz-placeholder {
+    font-size: 16px;
+    letter-spacing: 0.05rem;
+  }
+  
+  .email:-ms-input-placeholder {
+    font-size: 16px;
+    letter-spacing: 0.05rem;
+  }
+  
+  .email::-ms-input-placeholder {
+    font-size: 16px;
+    letter-spacing: 0.05rem;
+  }
+  
+  .email::placeholder {
+    font-size: 16px;
+    letter-spacing: 0.05rem;
+  }
+  
+  .formGroup {
+    margin-left: 19rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    display: grid;
+  }
+  
+  .formGroup input {
+    width: 20rem;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0d3;
+  }
+  
+  .formGroup input:hover {
+    border: none;
+    border-bottom: 1px solid #2b2b2bc7;
+  }
+  
+  .formGroup input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid blue;
+  }
+  
+  .password {
+    margin-left: 19rem;
+    font-size: 14.5px;
+    text-decoration: underline;
+    cursor: pointer;
+    letter-spacing: 0.03rem;
+  }
+  
+  .submitBtn {
+    width: 13.5rem;
+    height: 2.7rem;
+    margin-top: 3.2rem;
+    margin-left: 19rem;
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(17, 75, 250);
+    border: 0.25px solid rgba(190, 220, 255, 0.705);
+    border-radius: 20px;
+    cursor: pointer;
+    letter-spacing: 0.05rem;
+  }
+  
+  .submitBtn:hover {
+    background-color: rgb(17, 75, 250);
+    color: white;
+  }
+  
+  .lines {
+    width: 1px;
+    height: 240px;
+    background-color: #e6e4e4b5;
+    position: absolute;
+    top: 48%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .text {
+    position: absolute;
+    top: 48%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    z-index: 1;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    color: #494949;
+  }
+  
+  .button {
+    display: grid;
+    margin-left: 60rem;
+    cursor: pointer;
+  }
+  
+  .googleBtn {
+    position: absolute;
+    top: 27%;
+    left: 68%;
+    transform: translate(-50%, 100%);
+    width: 18rem;
+    height: 3rem;
+    background-color: #1774e8;
+    color: white;
+    border: 1px solid #1774e8;
+  }
+  
+  .facebookBtn {
+    position: absolute;
+    top: 35%;
+    left: 68%;
+    transform: translate(-50%, 100%);
+    width: 18rem;
+    height: 3rem;
+    background-color: #3c5998;
+    color: white;
+    border: 1px solid #3c5998;
+  }
+  
+  .appleBtn {
+    position: absolute;
+    top: 43%;
+    left: 68%;
+    transform: translate(-50%, 100%);
+    width: 18rem;
+    height: 3rem;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 5rem;
+  }
+  
+  .fastLoginWrapper {
+    position: absolute;
+    top: 57%;
+    left: 68%;
+    transform: translate(-50%, 100%);
+  }
+  
+  .fastLogin {
+    color: rgb(17, 75, 250);
+    font-size: 13.5px;
+    cursor: pointer;
+    letter-spacing: 0.05rem;
+  }
+  
+  .footer {
+    margin-right: 1rem;
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 0.78rem;
+    color: rgb(83, 83, 83);
+    line-height: 170%;
+    letter-spacing: 0.07rem;
+  }
+  
+  .line {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .line:hover {
+    color: #007bff;
+  }
+  

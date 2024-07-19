@@ -1,0 +1,38 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #1c7962;
+  color: white;
+  padding: 40px;
+  position: fixed;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(100%);
+  left: 0;
+  bottom: 0;
+}
+
+.modal.show {
+  transform: translateY(0);
+}
+
+.modal span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.modal button {
+  background-color: white;
+  color: #1c7962;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+.modal img {
+  width: 25px;
+}

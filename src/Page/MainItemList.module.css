@@ -1,0 +1,36 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 10px 80px 50px 80px;
+}
+
+@media (min-width: 1500px) {
+  .gridContainer {
+    grid-template-columns: repeat(5, 1fr); /* 최대 5개의 열 */
+  }
+}
+
+@media (max-width: 1499px) and (min-width: 1200px) {
+  .gridContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 900px) {
+  .gridContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 899px) and (min-width: 600px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 599px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+}

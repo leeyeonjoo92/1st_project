@@ -1,0 +1,201 @@
+/* Header */
+.signupForm img{
+  width: 68px;
+  margin-top: 0;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.header {
+  text-align: center;
+  padding-top: 2.3rem;
+  font-size: 3.5rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.message {
+  font-size: 1.13rem;
+  font-family: sans-serif;
+  text-align: center;
+  padding-bottom: 1.7rem;
+  padding-top: 1rem;
+}
+
+.login {
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: #007bff; /* 파란색으로 텍스트 색상 설정 */
+  cursor: pointer; /* 클릭 가능하도록 커서 변경 */
+}
+
+.signupForm {
+  padding: 20px;
+}
+
+.group {
+  width: 40%;
+}
+
+.formGroup {
+  margin-left: 20rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
+  display: grid;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.formGroup input {
+  width: 135%;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #c8c7c7d3;
+}
+
+.formGroup input:hover {
+  border: none;
+  border-bottom: 1px solid #515151c7;
+}
+
+.formGroup input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid blue;
+}
+
+.email::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+.email::-moz-placeholder {
+  font-size: 16px;
+}
+
+.email:-ms-input-placeholder {
+  font-size: 16px;
+}
+
+.email::-ms-input-placeholder {
+  font-size: 16px;
+}
+
+.email::placeholder {
+  font-size: 16px;
+}
+
+.password::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+.password::-moz-placeholder {
+  font-size: 16px;
+}
+
+.password:-ms-input-placeholder {
+  font-size: 16px;
+}
+
+.password::-ms-input-placeholder {
+  font-size: 16px;
+}
+
+.password::placeholder {
+  font-size: 16px;
+}
+
+.submitBtn {
+  width: 8rem;
+  height: 2.5rem;
+  margin-top: 0.6rem;
+  margin-left: 20rem;
+  background-color: white;
+  font-size: 16px;
+  color: rgb(17, 75, 250);
+  border: 0.25px solid rgba(139, 169, 252, 0.705);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: rgb(17, 75, 250);
+  color: white;
+}
+
+
+.lines {
+  width: 1px;
+  height: 350px; 
+  background-color: #e6e4e4b5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.text {
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+  z-index: 1;
+  font-size: 0.9rem;
+  color: #494949;
+}
+
+
+.button {
+  display: grid;
+  margin-left: 60rem;
+  cursor: pointer;
+}
+
+.googleBtn {
+  position: absolute;
+  top: 36%;
+  left: 68%;
+  transform: translate(-50%, 100%);
+  
+  width: 18rem;
+  height: 3rem;
+  background-color: #1774e8;
+  color: white;
+  border: 1px solid #1774e8;
+  margin-bottom: 1rem;
+}
+
+.facebookBtn {
+  position: absolute;
+  top: 44%;
+  left: 68%;
+  transform: translate(-50%, 100%);
+
+  width: 18rem;
+  height: 3rem;
+  background-color: #3c5998;
+  color: white;
+  border: 1px solid #3c5998;
+}
+
+/* Footer 부분 */
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2.2rem;
+  font-size: 0.78rem;
+  color: rgb(83, 83, 83);
+  line-height: 170%;
+}
+
+.line {
+  cursor: pointer; /* 클릭 가능하도록 커서 변경 */
+  text-decoration: underline;
+}
+
+.line:hover {
+  color: #007bff;
+}

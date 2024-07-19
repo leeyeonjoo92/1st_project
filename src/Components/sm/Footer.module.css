@@ -1,0 +1,136 @@
+.footerText {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.customBold {
+  font-weight: bold;
+}
+
+.listBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid gainsboro;
+}
+
+.list {
+  list-style: none;
+  margin: 50px 50px;
+}
+
+.listTitle {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.list li {
+  font-size: 14px;
+  margin-bottom: 15px;
+  white-space: nowrap;
+}
+
+.wixBox {
+  width: 16rem;
+  margin: 50px 0;
+  margin-left: 30px;
+}
+
+.wixBox img {
+  width: 70px;
+}
+
+.wixBox p {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.wixBox div {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.mobail {
+  display: none;
+  justify-content: center;
+  border: 1px solid gainsboro;
+}
+
+.wixBox2 {
+  display: block;
+  width: 16rem;
+  margin: 50px auto;
+}
+
+.wixBox2 img {
+  width: 70px;
+}
+
+.wixBox2 p {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.wixBox2 div {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.iconBox {
+  display: flex;
+}
+.iconBox img {
+  width: 30px;
+  margin-left: 20px;
+}
+
+.listBox2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list2 {
+  list-style: none;
+  margin: 50px 50px;
+}
+
+.listTitle2 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.list2 li {
+  font-size: 14px;
+  margin-bottom: 15px;
+  white-space: nowrap;
+}
+
+.footerBottum {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 35px;
+}
+
+.footerBottum div {
+  display: flex;
+  margin-left: 20px;
+}
+
+.footerBottum span {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 1400px) {
+  .mobail {
+    display: block;
+  }
+  .listBox {
+    display: none;
+  }
+}

@@ -1,0 +1,34 @@
+/***************************************
+ *	최근게시물
+ */
+.latest {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 1300px) {
+  .latestWrapper {
+    padding: 0 5%;
+  }
+}
+
+.latest div {
+  font-size: 18px;
+}
+.latest a {
+  font-size: 14px;
+}
+
+.latestThumb {
+  margin: 4% 0;
+  width: 75%;
+}
+.latestTitle {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 3%;
+  line-height: 1.3;
+  width: 75%;
+}

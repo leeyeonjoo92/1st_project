@@ -1,0 +1,71 @@
+.titleBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  width: 130px;
+}
+
+.subscribeButton {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 12px 35px;
+  cursor: pointer;
+}
+
+.subscribeButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.produceButton {
+  background: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 12px 35px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.produceButton:hover {
+  background-color: rgb(37, 35, 35);
+}
+
+.nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-bottom: 1px solid black;
+}
+
+.nav span {
+  font-size: 16px;
+  padding-right: 40px;
+}
+
+.searchIcon {
+  width: 15px;
+  padding-right: 5px;
+}
+
+.searchText {
+  font-size: 15px;
+  width: 300px;
+  border: hidden;
+}
